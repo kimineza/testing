@@ -1,0 +1,122 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    position: fixed;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+    .box {
+        border: 2px solid white ; /* Adds a border */
+        padding: 20px; /* Adds padding inside the box */
+        margin: 10px; /* Adds margin outside the box */
+        background-color: #f9f9f9; /* Sets the background color */
+        border-radius: 10px; /* Rounds the corners of the box */
+    }
+    
+
+.btn {
+display: inline-flex;
+border:none;
+font-size: 0.875rem; /* Equivalent to 14px */
+ padding-top: 0.25rem; /* 4px */
+ padding-bottom: 0.25rem; /* 4px */
+ padding-left: 0.75rem; /* 12px */
+ padding-right: 0.75rem; /* 12px */
+border-radius: 9999px; /* Full rounding */
+ margin-bottom: 1rem; /* 16px */ 
+}
+.btn-1 {
+    color: rgb(109 40 217 ); /* Adjust the color code as needed */
+   }
+.btn-2 {
+     color: rgb(45 104 248 ); /* Adjust the color code as needed */
+    }
+.btn-3{
+   color:  rgb(26 130 69);
+}
+b {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    display: flex;
+   
+    flex-wrap: wrap;
+    gap: 10px;
+
+    
+}
+.cat{
+    align-items: center;
+    font-size: 24px;
+color: #333;
+margin-bottom: 20px;
+
+}
+.btn-16{
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #333;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.newsletter-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+     text-align: center;
+    width: 100%;
+}
+.newsletter-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.newsletter-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.newsletter-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.newsletter-container button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
